@@ -28,12 +28,12 @@ public class Card{
     }
     
     public String getRankString(int rank){
-		return ranks[rank];
+	return ranks[rank];
     }
 	
-	public String getSuitString(){
-		return suits[suit];
-	}
+    public String getSuitString(){
+	return suits[suit];
+    }
     
     public void setRank(int rank){
         this.rank = rank;
